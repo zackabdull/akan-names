@@ -37,7 +37,40 @@
             </p>
           </div>  
         <!--child div 2-->
-        <div class="col-md-6"></div>
+        <div class="col-md-6">
+            <h1>Fill the form the get your Akan-Name</h1>
+          <!--this is the form div-->
+          <div class="divform">
+            <form>
+              <input
+                type="text"
+                id="day"
+                class="input"
+                placeholder="day(1-31)"
+                required
+              />
+              <input
+                type="text"
+                id="month"
+                class="input"
+                placeholder="month(1-12)"
+                required
+              />
+              <input
+                type="text"
+                id="year"
+                class="input"
+                placeholder="year"
+                required
+              />
+              <h6><small>select gender</small></h6>
+              <label for="male">male</label>
+              <input type="radio" name="male" id="male" class="" />
+              <label for="female">female</label>
+              <input type="radio" name="female" id="female" class="" /><br />
+              <button type="submit" onclick="fn()">get akan name</button>
+            </form>
+        </div>
       </div>
     </div>
   </body>
