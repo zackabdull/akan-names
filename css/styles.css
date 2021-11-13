@@ -9,3 +9,15 @@ body {
   gap: 2rem;
   padding-top: 5rem;
 }
+.herocontent {
+    border: 1px solid black;
+    flex: 5;
+  }
+  .heroform {
+    flex: 7;
+    border: 1px solid black;
+  }
+  .form-wrapper {
+  }
+  .form-wrapper > div {
+    padding: 0.5rem;
