@@ -10,14 +10,31 @@ body {
   padding-top: 5rem;
 }
 .herocontent {
-    border: 1px solid black;
-    flex: 5;
-  }
-  .heroform {
-    flex: 7;
-    border: 1px solid black;
-  }
-  .form-wrapper {
-  }
-  .form-wrapper > div {
-    padding: 0.5rem;
+  border: 1px solid black;
+  flex: 5;
+}
+.heroform {
+  flex: 7;
+  border: 1px solid black;
+}
+.form-wrapper {
+}
+.form-wrapper > div {
+  padding: 0.5rem;
+}
+.form-wrapper > div > input {
+  width: 70%;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: 1px solid #111;
+  border-radius: 1rem;
+}
+.form-wrapper > div > button {
+  background-color: greenyellow;
+  outline: none;
+  border-radius: 1rem;
+  width: 70%;
+  border: none;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
