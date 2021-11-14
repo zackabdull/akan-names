@@ -10,7 +10,7 @@ function fn() {
     alert("Input the correct year!");
   } else if (month <= 0 || month > 12) {
     alert("Input correct month!");
-  } else if (day <= 0 || day > 31) {
+  } else if (date <= 0 || date > 31) {
     alert("Input correct day!");
   }
   var day = d.getDay();
