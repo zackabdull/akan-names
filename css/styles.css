@@ -17,8 +17,7 @@ body {
   flex: 7;
   border: 1px solid black;
 }
-.form-wrapper {
-}
+
 .form-wrapper > div {
   padding: 0.5rem;
 }
