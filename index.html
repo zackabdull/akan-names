@@ -7,6 +7,7 @@
     <link rel="icon" href="/images/ghana_flags_flag_17002.png" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    
     <title>Akan-Names</title>
   </head>
   <body>
@@ -38,36 +39,32 @@
         </div>
         <!--the second child div-->
         <div class="heroform">
-          <h3>Fill the form the get your Akan-Name</h3>
+          <h3>Fill in your birthday to  get your Akan-Name</h3>
           <!--this is the form div-->
          
             <form>
                  <div class="form-wrapper">
               <div>
                 <input
-                  type="number"
+                  type="text"
                   id="day"
                   class="input"
                   placeholder="day(1-31)"
-                  min="1"
-                  max="31"
-                  required
+                  
                 />
               </div>
               <div>
                 <input
-                  type="number"
+                  type="text"
                   id="month"
                   class="input"
                   placeholder="month(1-12)"
-                  min="1"
-                  max="12"
-                  required
+                 
                 />
               </div>
               <div>
                 <input
-                  type="number"
+                  type="text"
                   id="year"
                   class="input"
                   placeholder="year"
@@ -78,18 +75,20 @@
               <h5><small>select gender</small></h5>
               
                 <label for="male">male</label>
-                <input type="radio" name="male" id="male" class="" />
+                <input type="checkbox"  id="male" class="" />
               
               <label for="female">female</label>
-                <input type="radio" name="female" id="female" class="" /><br />
+                <input type="checkbox"  id="female" class="" /><br />
               <div>
-                <button type="submit" onclick="fn()">get akan name</button>
+                <button type="button" onclick="fn()"> get akan name</button>  
+
+
               </div>
             </form>
           </div>
         </div>
       </div>
     </div>
-    <script src="js/scripts.js"></script>
+    <script src="/js/scripts.js"></script>
   </body>
 </html>
