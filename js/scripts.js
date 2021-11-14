@@ -18,8 +18,16 @@ function result(){
     var male = document.getElementById("male")
 
     var female = document.getElementById("female")
+
     if(day<=0 || day>31){
         alert("input corect date");
     }else if(month<=0 || month>31){
         alert("input correct month");
     }
+    var date = new Date(year +month +  day);
+
+
+    var birthDay = date.getDay();
+
+
+
