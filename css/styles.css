@@ -10,12 +10,10 @@ body {
   padding-top: 5.5rem;
 }
 .herocontent {
-  border: 1px solid black;
   flex: 5;
 }
 .heroform {
   flex: 7;
-  border: 1px solid black;
 }
 
 .form-wrapper > div {
