@@ -52,7 +52,7 @@
                   class="input"
                   placeholder="day(1-31)"
                   
-                />
+                >
               </div>
               <div>
                 <input
@@ -61,7 +61,7 @@
                   class="input"
                   placeholder="month(1-12)"
                  
-                />
+                >
               </div>
               <div>
                 <input type="text" id="century" class="input" placeholder=" century eg. 19,20,16 etc ">
@@ -73,20 +73,20 @@
                   class="input"
                   placeholder="year. eg 89,99,20 etc  "
                   required
-                />
+                >
               </div>
 
               <h5><small>select gender</small></h5>
               
                 <label for="male">male</label>
-                <input type="checkbox"  id="male" class="" />
+                <input type="radio"  id="male"  name="checked">
               
               <label for="female">female</label>
-                <input type="checkbox"  id="female" class="" /><br />
+                <input type="radio"  id="female" name="checked" ><br />
               <div>
 
-                <button onclick="fn()">get akan name</button> 
-
+                <button onclick="getAkan()">get akan name</button> 
+              
 
               </div>
             </form>

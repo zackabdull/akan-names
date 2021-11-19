@@ -1,4 +1,4 @@
-function fn() {
+function getAkan() {
   var yy = parseInt(document.getElementById("year").value);
 
   var mm = parseInt(document.getElementById("month").value);
@@ -33,9 +33,9 @@ function fn() {
 
   var isFemale = document.getElementById("female").checked;
   if (isMale == true && isFemale == false) {
-    alert(" and you Akan name is " + male[day]);
+    alert("  your Akan name is " + male[day]);
   } else if (isMale == false && isFemale == true) {
-    alert(" and you Akan name is " + female[day]);
+    alert(" your Akan name is " + female[day]);
   }
 }
-fn();
+getAkan();
